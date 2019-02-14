@@ -1,0 +1,24 @@
+{
+  "name": "votos",
+  "version": "1.0.0",
+  "description": "front",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandro-8a-ochoa/votos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandro-8a-ochoa/votos/issues"
+  },
+  "homepage": "https://github.com/alejandro-8a-ochoa/votos#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hash.js": "^1.1.7"
+  }
+}
