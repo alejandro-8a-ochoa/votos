@@ -14,29 +14,13 @@
        
     </header>
 
-    <div class="formulario" id="formulario-datos">
-        <div class="dato"> 
-        
-        <label>Nombre:</label> 
-        <input type="textbox" name="nombre" id="nombre" placeholder="Escriba su(s) nombre(s)">
-       </div>
-       
-       <div class="dato">
-        <label>apellido paterno:</label>
-        <input type="textbox" name="apellido-paterno" id="apellido-paterno" placeholder="Escriba su apellido paterno">
-       </div>
+    <form method="POST" class="formulario" id="formulario-datos">
 
-       <div class="dato"> 
-        
-        <label>apellido materno:</label>
-        <input type="textbox" name="apellido-materno" id="apellido-materno" placeholder="Escriba su apellido materno">
-
-        <button type="button" onclick="getData()">enviar</button>
-
-        </div>
-       
-    
-    </div>
+        <div class="dato"><label for="Nombre">Nombre: </label><input type="text" name="nombre" required="required" placeholder="Escriba su(s) nombre(s)"></div>
+        <div class="dato"><label for="apellido-paterno">Apellido Paterno: </label><input type="text" name="apellido-paterno" required="required" placeholder="Escriba su apellido paterno"></div>
+        <div class="dato"><label for="apellido-materno">Apellido Materno: </label><input type="text" name="apellido-materno" required="required" placeholder="Escriba su apellido materno"></div>
+        <button type="submit" >enviar</button>
+    </form>
 
     <div id="hash">
         
